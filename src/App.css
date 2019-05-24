@@ -17,6 +17,11 @@ body {
 .header {
   width: 50%;
 }
+
+button:focus {
+  outline: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -45,18 +50,34 @@ p {
   justify-content: center;
   font-family: "Amatic SC", cursive;
   font-size: 40px;
+  padding-left: 15px;
 }
 .app-navbar-li > a {
   color: white;
 }
-.is-active {
+li > a:hover {
+  transition: background-color, 0.5s;
+  background-color: orange;
+}
+.is-active,
+.is-active:hover {
+  transition: background-color, 1s;
   background-color: green;
 }
 .app-dropDown-menu {
   display: none;
 }
+.app-dropDown-menu-button {
+  display: none;
+}
+
+.app-navbar-li-drop-off,
+.app-navbar-li-drop-on {
+  display: none;
+}
+
 @media only screen and (max-width: 764px) {
-  .app-dropDown-menu {
+  .app-dropDown-menu-button {
     display: block;
     position: absolute;
     position: fixed;
@@ -66,8 +87,43 @@ p {
     background-image: url("./../public/menu.png");
     background-color: transparent;
     border: transparent;
+    z-index: 3;
   }
   .app-navbar {
     display: none;
+  }
+  .app-dropDown-menu-on {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: royalblue;
+    z-index: 2;
+    animation: fade-in 1s;
+  }
+  .app-dropDown-menu-off {
+    z-index: -1;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .app-navbar-li-drop-off {
+    z-index: 0;
+    display: none;
+  }
+  .app-navbar-li-drop-on {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
   }
 }
