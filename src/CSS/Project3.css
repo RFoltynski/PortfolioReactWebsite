@@ -1,0 +1,8 @@
+.project3-box {
+  background: rgb(132, 197, 231);
+  background: linear-gradient(
+    0deg,
+    rgba(132, 197, 231, 1) 0%,
+    rgba(31, 150, 214, 1) 100%
+  );
+}

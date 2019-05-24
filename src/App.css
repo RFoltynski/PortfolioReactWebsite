@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+}
+
+.past-box,
+.project1-box,
+.project2-box,
+.project3-box,
+.future-box {
+  min-height: 100vh;
+  color: white;
+  width: 100%;
+  display: flex;
+
+  justify-content: space-around;
+}
+.header {
+  width: 50%;
+}
+h1,
+h2,
+h3 {
+  font-family: "Amatic SC", cursive;
+  margin: 0;
+}
+
+h2 {
+  font-size: 90px;
+}
+
+p {
+  letter-spacing: 1px;
+  width: 50%;
+  font-family: "Josefin Slab", serif;
+}
+
+.app-navbar {
+  height: 100%;
+  background-color: transparent;
+  position: fixed;
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+}
+.app-navbar-li > a {
+  color: white;
+}
+.is-active {
+  background-color: green;
+}
+.app-dropDown-menu {
+  display: none;
+}
+@media only screen and (max-width: 764px) {
+  .app-dropDown-menu {
+    display: block;
+    position: absolute;
+    position: fixed;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    background-image: url("./../public/menu.png");
+    background-color: transparent;
+    border: transparent;
+  }
+  .app-navbar {
+    display: none;
+  }
+}
