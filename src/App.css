@@ -2,7 +2,7 @@ body {
   height: 100%;
 }
 
-.past-box,
+.currently-box,
 .project1-box,
 .project2-box,
 .project3-box,
@@ -88,6 +88,11 @@ li > a:hover {
     background-color: transparent;
     border: transparent;
     z-index: 3;
+    margin: 15px 0 0 15px;
+  }
+  .app-dropDown-menu-button:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
   }
   .app-navbar {
     display: none;

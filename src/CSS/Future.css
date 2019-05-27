@@ -2,9 +2,7 @@
   background: rgb(192, 233, 255);
   background: linear-gradient(
     0deg,
-    rgba(192, 233, 255, 1) 0%,
+    rgb(151, 212, 245) 0%,
     rgba(132, 197, 231, 1) 100%
   );
-  color: black;
-  
 }

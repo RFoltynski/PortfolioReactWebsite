@@ -1,0 +1,76 @@
+.currently-box {
+  background: rgb(11, 66, 106);
+  background: linear-gradient(
+    0deg,
+    rgba(11, 66, 106, 1) 2%,
+    rgba(0, 0, 0, 1) 98%
+  );
+}
+
+@media only screen and (max-width: 764px) {
+  .currently-box-avatar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .currenty-box-bubble > img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+  .currenty-box-bubble > p {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: black;
+    font-family: "Amatic SC", cursive;
+    font-size: 4vh;
+  }
+
+  .currently-box-img > img {
+    width: 50%;
+    min-width: 250px;
+    height: 350px;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 765px) {
+  .currently-box-avatar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .currenty-box-bubble > img {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+  }
+  .currenty-box-bubble > p {
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top: 23%;
+    left: 48%;
+    color: black;
+    font-family: "Amatic SC", cursive;
+    font-size: 5vh;
+  }
+
+  .currently-box-img > img {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+  }
+}

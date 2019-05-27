@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import ScrollspyNav from "react-scrollspy-nav";
-import Past from "./Components/Past";
+import Currently from "./Components/Currently";
 import Future from "./Components/Future";
 import Project1 from "./Components/Project1";
 import Project2 from "./Components/Project2";
@@ -38,17 +38,17 @@ class App extends Component {
             <div className={boxClassList}>
               <li className="app-navbar-li">
                 <a href="#section_1D" onClick={() => this.dropDownMenu(event)}>
-                  <span>Teraz</span>
+                  <span>Cześć!</span>
                 </a>
               </li>
               <li className="app-navbar-li">
                 <a href="#section_2D" onClick={() => this.dropDownMenu(event)}>
-                  <span>Projekt pierwszy</span>
+                  <span>Umiejętności</span>
                 </a>
               </li>
               <li className="app-navbar-li">
                 <a href="#section_3D" onClick={() => this.dropDownMenu(event)}>
-                  <span>Projekt drugi</span>
+                  <span>Projekty</span>
                 </a>
               </li>
               <li className="app-navbar-li">
@@ -79,27 +79,27 @@ class App extends Component {
               <div className="app-navbar">
                 <li className="app-navbar-li">
                   <a href="#section_1">
-                    <span>Teraz</span>
+                    <span>Cześć!</span>
                   </a>
                 </li>
                 <li className="app-navbar-li">
                   <a href="#section_2">
-                    <span>Projekt pierwszy</span>
+                    <span>Umiejętności</span>
                   </a>
                 </li>
                 <li className="app-navbar-li">
                   <a href="#section_3">
-                    <span>Projekt drugi</span>
+                    <span>Projekty</span>
                   </a>
                 </li>
                 <li className="app-navbar-li">
                   <a href="#section_4">
-                    <span>Projekt trzeci</span>
+                    <span>Q&A</span>
                   </a>
                 </li>
                 <li className="app-navbar-li">
                   <a href="#section_5">
-                    <span>Przyszłość</span>
+                    <span>Kontakt</span>
                   </a>
                 </li>
               </div>
@@ -109,11 +109,11 @@ class App extends Component {
           <div>
             <div id="section_1">
               <div id="section_1D" />
-              <Past />
+              <Currently />
             </div>
             <div id="section_2">
               <div id="section_2D" />
-              <Project1 id="section_2D" />
+              <Project1 />
             </div>
             <div id="section_3">
               <div id="section_3D" />
