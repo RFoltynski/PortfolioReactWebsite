@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "../CSS/Project3.css";
+import "../CSS/Skills.css";
 
-class Project3 extends Component {
+class Skills extends Component {
   render() {
     return (
-      <div className="project3-box">
+      <div className="project1-box">
         <div className="header">
-          <h2>Project3</h2>
+          <h2>Umiejętności</h2>
           <p>
             Apparently we had reached a great height in the atmosphere, for the
             sky was a dead black, and the stars had ceased to twinkle. By the
@@ -23,4 +23,4 @@ class Project3 extends Component {
   }
 }
 
-export default Project3;
+export default Skills;

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "../CSS/Project2.css";
+import "../CSS/Projects.css";
 
-class Project2 extends Component {
+class Projects extends Component {
   render() {
     return (
       <div className="project2-box">
         <div className="header">
-          <h2>Project2</h2>
+          <h2>Projekty</h2>
           <p>
             Apparently we had reached a great height in the atmosphere, for the
             sky was a dead black, and the stars had ceased to twinkle. By the
@@ -23,4 +23,4 @@ class Project2 extends Component {
   }
 }
 
-export default Project2;
+export default Projects;

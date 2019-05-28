@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import ScrollspyNav from "react-scrollspy-nav";
 import Currently from "./Components/Currently";
-import Future from "./Components/Future";
-import Project1 from "./Components/Project1";
-import Project2 from "./Components/Project2";
-import Project3 from "./Components/Project3";
+import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
+import Projects from "./Components/Projects";
+import QA from "./Components/QA";
 
 class App extends Component {
   constructor() {
@@ -53,7 +53,7 @@ class App extends Component {
               </li>
               <li className="app-navbar-li">
                 <a href="#section_4D" onClick={() => this.dropDownMenu(event)}>
-                  <span>Projekt trzeci</span>
+                  <span>Q&A</span>
                 </a>
               </li>
               <li className="app-navbar-li">
@@ -64,6 +64,8 @@ class App extends Component {
             </div>
           </div>
           <div>
+            <button className="app-cv-button">CV</button>
+            <button className="app-git-button">Git</button>
             <ScrollspyNav
               scrollTargetIds={[
                 "section_1",
@@ -113,19 +115,19 @@ class App extends Component {
             </div>
             <div id="section_2">
               <div id="section_2D" />
-              <Project1 />
+              <Skills />
             </div>
             <div id="section_3">
               <div id="section_3D" />
-              <Project2 />
+              <Projects />
             </div>
             <div id="section_4">
               <div id="section_4D" />
-              <Project3 />
+              <QA />
             </div>
             <div id="section_5">
               <div id="section_5D" />
-              <Future />
+              <Contact />
             </div>
           </div>
         </div>{" "}

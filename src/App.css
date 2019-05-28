@@ -1,5 +1,6 @@
 body {
   height: 100%;
+  font-family: "Amatic SC", cursive;
 }
 
 .currently-box,
@@ -11,7 +12,6 @@ body {
   color: white;
   width: 100%;
   display: flex;
-
   justify-content: space-around;
 }
 .header {
@@ -35,7 +35,7 @@ h2 {
 
 p {
   letter-spacing: 1px;
-  width: 50%;
+
   font-family: "Josefin Slab", serif;
 }
 
@@ -76,7 +76,63 @@ li > a:hover {
   display: none;
 }
 
-@media only screen and (max-width: 764px) {
+.app-cv-button {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  background-color: transparent;
+  border: dotted 3px white;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 45px;
+  padding: 0;
+  z-index: 100;
+}
+.app-git-button {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 100px;
+  background-color: transparent;
+  z-index: 100;
+  border: dotted 3px white;
+  border-top: 0;
+  border-right: 5;
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 45px;
+  padding: 0;
+}
+.app-cv-button:hover {
+  transition: background-color, 0.5s;
+  background-color: orange;
+  border-left: 5px;
+}
+.app-git-button:hover {
+  transition: background-color, 0.5s;
+  background-color: orange;
+  border-left: dotted 5px white;
+}
+@media only screen and (max-width: 784px) {
+  h2 {
+    margin-top: 5px;
+    font-size: 55px;
+  }
+  .currently-box,
+  .project1-box,
+  .project2-box,
+  .project3-box,
+  .future-box {
+    min-height: 100vh;
+    color: white;
+    width: 100%;
+    display: flex;
+  }
+
   .app-dropDown-menu-button {
     display: block;
     position: absolute;
@@ -87,7 +143,7 @@ li > a:hover {
     background-image: url("./../public/menu.png");
     background-color: transparent;
     border: transparent;
-    z-index: 3;
+    z-index: 100;
     margin: 15px 0 0 15px;
   }
   .app-dropDown-menu-button:hover {
@@ -98,12 +154,14 @@ li > a:hover {
     display: none;
   }
   .app-dropDown-menu-on {
+    font-family: "Amatic SC", cursive;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     background-color: royalblue;
     z-index: 2;
     animation: fade-in 1s;
+    font-size: 50px;
   }
   .app-dropDown-menu-off {
     z-index: -1;
