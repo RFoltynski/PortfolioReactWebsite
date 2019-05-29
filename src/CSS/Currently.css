@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  font-family: "Amatic SC", cursive;
 }
 
 .currently-box-speech {
@@ -25,9 +26,22 @@
 }
 .currently-box-bubbleSVG {
   width: 300px;
-  max-width: 450px;
+
   position: absolute;
-  bottom: 30%;
+  bottom: 0%;
   left: 0%;
   z-index: 1;
+  transition: transform 2s;
+}
+.currently-box-bubbleSVG:hover {
+  transform: rotate(0);
+}
+
+.currently-box-bubbleSVG-text {
+  color: black;
+  position: absolute;
+  top: 120px;
+  left: 70px;
+  z-index: 1;
+  font-size: 40px;
 }
