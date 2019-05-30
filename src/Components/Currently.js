@@ -10,28 +10,7 @@ class Currently extends Component {
     return (
       <div className="currently-box">
         <div className="currently-box-speech">
-          <ReactSVG
-            src={bubbleSVG}
-            afterInjection={(error, svg) => {
-              if (error) {
-                console.error(error);
-                return;
-              }
-              console.log(svg);
-            }}
-            beforeInjection={svg => {
-              svg.classList.add("currently-box-bubbleSVG");
-            }}
-            evalScripts="always"
-            fallback={() => <span>Error!</span>}
-            loading={() => <span>Loading</span>}
-            renumerateIRIElements={false}
-            wrapper="span"
-            className="currently-box-bubbleSVG"
-            onClick={() => {
-              console.log("wrapper onClick");
-            }}
-          />
+          <ReactSVG className="currently-box-bubbleSVG" src={bubbleSVG} />
           <div className="currently-box-bubbleSVG-text">
             Jestem Rafał. <br />I lubie Reacta!
           </div>

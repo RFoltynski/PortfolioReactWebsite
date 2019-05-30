@@ -24,7 +24,7 @@
   right: 0%;
   bottom: 0;
 }
-.currently-box-bubbleSVG {
+.currently-box-bubbleSVG svg {
   width: 300px;
 
   position: absolute;
@@ -32,9 +32,25 @@
   left: 0%;
   z-index: 1;
   transition: transform 2s;
+  overflow: hidden;
 }
-.currently-box-bubbleSVG:hover {
-  transform: rotate(0);
+
+.currently-box-bubbleSVG .smallCircle:hover {
+  fill: green;
+  transition-duration: 1s;
+  transition-property: transform;
+
+  transform-origin: 400px 480px;
+}
+
+.currently-box-bubbleSVG .bigCircle:hover {
+  stroke: white;
+  fill: orange;
+  transition-duration: 3s;
+  transition-property: transform;
+  transform: rotate(360deg);
+  transform-origin: 285px 235px;
+  -webkit-transform: rotate(-360deg);
 }
 
 .currently-box-bubbleSVG-text {

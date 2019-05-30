@@ -1,8 +1,9 @@
-.project1-box {
+.skills-box {
   background: rgb(19, 97, 145);
   background: linear-gradient(
     0deg,
     rgba(19, 97, 145, 1) 0%,
     rgba(11, 66, 106, 1) 100%
   );
+  color: white;
 }

@@ -3,10 +3,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="595.28px" height="841.89px" viewBox="0 0 595.28 841.89" enable-background="new 0 0 595.28 841.89" xml:space="preserve">
-<path  fill="#FFFFFF" stroke="#fff" stroke-width="16" stroke-miterlimit="10" d="M44,148l116-41c0,0,205-12,208-12s151,77,151,77
+<path class = "bigCircle" fill="#FFFFFF" stroke="#fff" stroke-width="16" stroke-miterlimit="10" d="M44,148l116-41c0,0,205-12,208-12s151,77,151,77
 	l31,113l-84,102l-240,10L68,330L44,148z"/>
-<path fill="#FFFFFF" stroke="#fff" stroke-width="14" stroke-miterlimit="10" d="M321,439l118-9l55,55c0,0-15,42-18,42
+<path  class = "smallCircle" fill="#FFFFFF" stroke="#fff" stroke-width="14" stroke-miterlimit="10" d="M321,439l118-9l55,55c0,0-15,42-18,42
 	s-94,9-98,9s-57-26-57-26V439z"/>
-<rect x="130" y="160" fill="none" width="334" height="160"/>
+
 
 </svg>
