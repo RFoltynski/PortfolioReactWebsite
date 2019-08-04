@@ -7,6 +7,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "0.9.5",
     "react-scrollspy-nav": "^1.2.1",
+    "react-spring": "^8.0.27",
     "react-svg": "^10.0.4"
   },
   "devDependencies": {},

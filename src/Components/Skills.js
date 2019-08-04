@@ -1,40 +1,59 @@
 import React, { Component } from "react";
 import ReactSVG from "react-svg";
 import "../CSS/Skills.css";
-import whiteBoard from "../Image/whiteBoard.svg";
+import CssSkill from "../Components/skills/css";
+import ReactSkill from "../Components/skills/react";
+import RailsSkill from "../Components/skills/rails";
 
 class Skills extends Component {
   constructor() {
     super();
     this.state = {
-      showReact: false,
+      render: "showReact",
+      showReact: true,
       showCSS: false,
       showRails: false
     };
   }
-
   showReact = event => {
+    this.handleClick("showReact");
     this.setState({
-      showReact: !this.state.showReact,
+      showReact: true,
       showCSS: false,
       showRails: false
     });
   };
   showCSS = event => {
+    this.handleClick("showCSS");
     this.setState({
-      showCSS: !this.state.showCSS,
+      showCSS: true,
       showRails: false,
       showReact: false
     });
   };
   showRails = event => {
+    this.handleClick("showRails");
     this.setState({
-      showRails: !this.state.showRails,
+      showRails: true,
       showReact: false,
       showCSS: false
     });
   };
-
+  handleClick = (compName, e) => {
+    this.setState({
+      render: compName
+    });
+  };
+  _renderSubComp() {
+    switch (this.state.render) {
+      case "showReact":
+        return <ReactSkill />;
+      case "showCSS":
+        return <CssSkill />;
+      case "showRails":
+        return <RailsSkill />;
+    }
+  }
   render() {
     return (
       <div className="skills-box">
@@ -66,15 +85,7 @@ class Skills extends Component {
               RubyOnRails
             </button>
           </div>
-          <div
-            className={!this.state.showReact ? "skills-hide" : "skills-show"}
-          />
-          <div
-            className={!this.state.showCSS ? "skills-hide" : "skills-show"}
-          />
-          <div
-            className={!this.state.showRails ? "skills-hide" : "skills-show"}
-          />
+          {this.state.render === "" ? <ReactSkill /> : this._renderSubComp()}
         </div>
       </div>
     );
