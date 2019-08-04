@@ -54,6 +54,7 @@ class Skills extends Component {
         return <RailsSkill />;
     }
   }
+
   render() {
     return (
       <div className="skills-box">
