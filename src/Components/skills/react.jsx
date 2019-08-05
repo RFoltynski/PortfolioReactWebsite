@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactSVG from "react-svg";
 
 import "../../CSS/Skills.css";
 import { Spring } from "react-spring/renderprops.cjs";
@@ -13,14 +14,23 @@ class ReactSkill extends Component {
           config={{ duration: 1000 }}
         >
           {props => (
-            <div style={props} className="react-box">
-              <h1>Component 1</h1>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Possimus nobis adipisci eum minima deserunt at porro, veritatis
-                officia commodi itaque voluptates vel suscipit assumenda soluta
-                ipsa voluptatibus laudantium labore harum?
-              </p>
+            <div style={props} className="skill-box-content">
+              {" "}
+              <img
+                src={"./Images/Skills/react-logo.svg"}
+                className="skill-box-content-logo"
+              />{" "}
+              <div className="skill-box-content-text">
+                <div className="skill-box-content-text-p">dsa fadsf ds </div>
+                <div className="skill-box-content-text-p">
+                  asdfasd dsfds sadf
+                </div>
+                <div className="skill-box-content-text-p">dsa fadsf ds </div>
+                <div className="skill-box-content-text-p">
+                  asdfasd dsfds sadf
+                </div>
+                <div className="skill-box-content-text-p">dsf sdfasdf dsf </div>
+              </div>
             </div>
           )}
         </Spring>

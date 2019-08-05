@@ -75,7 +75,7 @@ class Skills extends Component {
               }
               onClick={this.showCSS}
             >
-              CSS
+              HTML/CSS
             </button>
             <button
               className={

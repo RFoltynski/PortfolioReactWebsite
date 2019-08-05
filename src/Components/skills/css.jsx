@@ -13,14 +13,23 @@ class CssSkill extends Component {
           config={{ duration: 1000 }}
         >
           {props => (
-            <div style={props} className="react-box">
-              <h1>Component 21</h1>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Possimus nobis adipisci eum minima deserunt at porro, veritatis
-                officia commodi itaque voluptates vel suscipit assumenda soluta
-                ipsa voluptatibus laudantium labore harum?
-              </p>
+            <div style={props} className="skill-box-content">
+              {" "}
+              <img
+                src={"./Images/Skills/CSS3_and_HTML5.svg"}
+                className="skill-box-content-logo"
+              />{" "}
+              <div className="skill-box-content-text">
+                <div className="skill-box-content-text-p">dsa fadsf ds </div>
+                <div className="skill-box-content-text-p">
+                  asdfasd dsfds sadf
+                </div>
+                <div className="skill-box-content-text-p">dsa fadsf ds </div>
+                <div className="skill-box-content-text-p">
+                  asdfasd dsfds sadf
+                </div>
+                <div className="skill-box-content-text-p">dsf sdfasdf dsf </div>
+              </div>
             </div>
           )}
         </Spring>
