@@ -5,7 +5,7 @@ body {
 
 .currently-box,
 .skills-box,
-.project2-box,
+.project-box,
 .project3-box,
 .future-box {
   min-height: 100vh;
@@ -16,6 +16,13 @@ body {
 }
 .header {
   width: 50%;
+}
+
+button {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  padding: 0;
+  border: 0;
 }
 
 button:focus {
@@ -75,7 +82,7 @@ li > a:hover {
 .app-navbar-li-drop-on {
   display: none;
 }
-
+.app-git-button,
 .app-cv-button {
   width: 100px;
   height: 100px;
@@ -93,19 +100,12 @@ li > a:hover {
   z-index: 100;
 }
 .app-git-button {
-  width: 100px;
-  height: 100px;
-  position: fixed;
   right: 100px;
-  background-color: transparent;
   z-index: 100;
-  border: dotted 3px white;
   border-top: 0;
-  border-right: 5;
-  color: white;
+  border-right: dotted 3px white;
+  border-left: dotted 3px white;
   font-family: "Amatic SC", cursive;
-  font-size: 45px;
-  padding: 0;
 }
 .app-cv-button:hover {
   transition: background-color, 0.5s;
@@ -124,13 +124,26 @@ li > a:hover {
   }
   .currently-box,
   .skills-box,
-  .project2-box,
+  .project-box,
   .project3-box,
   .future-box {
-    min-height: 100vh;
-    color: white;
+    min-height: 100%;
     width: 100%;
-    display: flex;
+    color: white;
+    text-align: center;
+  }
+  .header {
+    width: 90%;
+  }
+
+  .app-git-button,
+  .app-cv-button {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+  }
+  .app-git-button {
+    right: 50px;
   }
 
   .app-dropDown-menu-button {
@@ -144,7 +157,7 @@ li > a:hover {
     background-color: transparent;
     border: transparent;
     z-index: 100;
-    margin: 15px 0 0 15px;
+    margin: 5px 0 0 15px;
   }
   .app-dropDown-menu-button:hover {
     transform: scale(1.1);
