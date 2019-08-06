@@ -8,14 +8,16 @@ class Projects extends Component {
         <div className="header">
           <h2>Projekty</h2>
           <div className="project-box-cards">
-            <div className="row">
-              <div className="project-box-card" />
-              <div className="project-box-card" />
+            <div className="project-box-card">
+              <div className="project-box-card-img" />
+              <div className="projet-box-title"> Parafia Kiełczygłów </div>
+              <div className="projet-box-links">
+                {" "}
+                <a>Git</a> <a>Live</a> <a>Obróć</a>
+              </div>
             </div>
-            <div className="row">
-              <div className="project-box-card" />
-              <div className="project-box-card" />
-            </div>
+            <div className="project-box-card" />
+            <div className="project-box-card" />
           </div>
         </div>
       </div>
