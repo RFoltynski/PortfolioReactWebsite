@@ -19,10 +19,14 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  Pellentesque ac velit eget turpis dictum pulvinar vitae vel
-                  urna. Vestibulum at sagittis ante, vel facilisis tortor.
+                  <h3>Pellentesque ac velit eget turpis?</h3>
                 </div>
                 <button
+                  className={
+                    this.state.showQuestion1
+                      ? "QA-box-question-button-on"
+                      : "QA-box-question-button-off"
+                  }
                   onClick={() =>
                     this.setState({
                       showQuestion1: !this.state.showQuestion1
@@ -58,10 +62,14 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  Pellentesque ac velit eget turpis dictum pulvinar vitae vel
-                  urna. Vestibulum at sagittis ante, vel facilisis tortor.
+                  <h3>Pellentesque ac velit eget turpis?</h3>
                 </div>
                 <button
+                  className={
+                    this.state.showQuestion2
+                      ? "QA-box-question-button-on"
+                      : "QA-box-question-button-off"
+                  }
                   onClick={() =>
                     this.setState({
                       showQuestion2: !this.state.showQuestion2
@@ -97,10 +105,14 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  Pellentesque ac velit eget turpis dictum pulvinar vitae vel
-                  urna. Vestibulum at sagittis ante, vel facilisis tortor.
+                  <h3>Pellentesque ac velit eget turpis?</h3>
                 </div>
                 <button
+                  className={
+                    this.state.showQuestion3
+                      ? "QA-box-question-button-on"
+                      : "QA-box-question-button-off"
+                  }
                   onClick={() =>
                     this.setState({
                       showQuestion3: !this.state.showQuestion3
@@ -136,10 +148,14 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  Pellentesque ac velit eget turpis dictum pulvinar vitae vel
-                  urna. Vestibulum at sagittis ante, vel facilisis tortor.
+                  <h3>Pellentesque ac velit eget turpis?</h3>
                 </div>
                 <button
+                  className={
+                    this.state.showQuestion4
+                      ? "QA-box-question-button-on"
+                      : "QA-box-question-button-off"
+                  }
                   onClick={() =>
                     this.setState({
                       showQuestion4: !this.state.showQuestion4

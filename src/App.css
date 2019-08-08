@@ -13,9 +13,11 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  height: 100%;
 }
 .header {
   width: 50%;
+  height: 100%;
 }
 
 button {
