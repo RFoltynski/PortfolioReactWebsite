@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "cd $(pwd)",
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm start --prefix client",
+    "client": "npm start --prefix /home/rafal/Pulpit/react/PortfolioReactWebsite/front_end",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
