@@ -35,37 +35,35 @@ class Contact extends Component {
       <div className="future-box">
         <div className="header">
           <h2>Kontakt</h2>
-          <form onSubmit={this.handleSubmit}>
-            <label>
-              <input
-                type="text"
-                name="name"
-                placeholder="Imię"
-                onChange={this.handleChange}
-                value={this.state.name}
-              />
-            </label>
-            <label>
-              <input
-                type="text"
-                name="email"
-                placeholder="E-mail"
-                onChange={this.handleChange}
-                value={this.state.mail}
-              />
-            </label>
-            <label>
-              <textarea
-                placeholder="Wiadomość"
-                name="message"
-                type="text"
-                onChange={this.handleChange}
-                value={this.state.message}
-              />
-            </label>
-            <label>
-              <input type="submit" name="submit" />
-            </label>
+          <form onSubmit={this.handleSubmit} className="contact-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Imię"
+              onChange={this.handleChange}
+              value={this.state.name}
+              className="contact-form-input"
+            />
+
+            <input
+              type="text"
+              name="email"
+              placeholder="E-mail"
+              onChange={this.handleChange}
+              value={this.state.mail}
+              className="contact-form-input"
+            />
+
+            <textarea
+              placeholder="Wiadomość"
+              name="message"
+              type="text"
+              onChange={this.handleChange}
+              value={this.state.message}
+              className="contact-form-input contact-form-input-message"
+            />
+
+            <input type="submit" name="submit" className="contact-form-input" />
           </form>
         </div>
       </div>

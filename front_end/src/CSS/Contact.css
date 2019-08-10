@@ -6,3 +6,39 @@
     rgba(132, 197, 231, 1) 100%
   );
 }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.contact-form-input {
+  width: 80%;
+  height: 40px;
+  margin: 15px 0;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  box-sizing: border-box;
+  outline: none;
+}
+.contact-form-input:focus {
+  border: 1px dotted orange;
+}
+.contact-form-input-message {
+  height: 100px;
+  font-family: "Amatic SC", cursive;
+}
+input[type="submit"] {
+  background-color: #1f96d6;
+  border: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: orange;
+  color: white;
+}

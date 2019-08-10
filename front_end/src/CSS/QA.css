@@ -46,6 +46,7 @@
 }
 .QA-box-question-button-on {
   background-color: green;
+  cursor: pointer;
   position: relative;
   z-index: 1;
   width: 100px;
@@ -56,8 +57,10 @@
   width: 100px;
   position: relative;
   z-index: 1;
+  transition: background-color 0.4s;
 }
 
 .QA-box-question-button-off:hover {
   background-color: orange;
+  cursor: pointer;
 }
