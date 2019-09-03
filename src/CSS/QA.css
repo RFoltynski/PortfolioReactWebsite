@@ -12,6 +12,7 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 15px 0;
 }
 .QA-box-question {
   overflow: hidden;
