@@ -64,3 +64,10 @@
   margin: 10px 10px;
   padding-left: 10px;
 }
+@media (max-width: 850px) {
+  .skills-button {
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+  }
+}
