@@ -103,6 +103,7 @@
 
 .arrowOverlayUp {
   animation: rotateUp 2s;
+  animation-fill-mode: forwards;
 }
 .arrowOverlayDown {
   animation: rotateDown 2s;
