@@ -33,7 +33,15 @@ class QA extends Component {
                     })
                   }
                 >
-                  rozwin
+                  {!this.state.showQuestion1 ? (
+                    <div className={"arrowOverlayDown"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  ) : (
+                    <div className={"arrowOverlayUp"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  )}
                 </button>
               </div>
               <Transition
@@ -76,7 +84,15 @@ class QA extends Component {
                     })
                   }
                 >
-                  rozwin
+                  {!this.state.showQuestion2 ? (
+                    <div className={"arrowOverlayDown"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  ) : (
+                    <div className={"arrowOverlayUp"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  )}
                 </button>
               </div>
               <Transition
@@ -119,7 +135,15 @@ class QA extends Component {
                     })
                   }
                 >
-                  rozwin
+                  {!this.state.showQuestion3 ? (
+                    <div className={"arrowOverlayDown"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  ) : (
+                    <div className={"arrowOverlayUp"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  )}
                 </button>
               </div>
               <Transition
@@ -162,7 +186,15 @@ class QA extends Component {
                     })
                   }
                 >
-                  rozwin
+                  {!this.state.showQuestion4 ? (
+                    <div className={"arrowOverlayDown"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  ) : (
+                    <div className={"arrowOverlayUp"}>
+                      <div className={"arrow"}></div>
+                    </div>
+                  )}
                 </button>
               </div>
               <Transition
