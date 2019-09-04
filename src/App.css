@@ -118,7 +118,7 @@ li > a:hover {
   background-color: orange;
   border-left: dotted 5px white;
 }
-@media only screen and (max-width: 784px) {
+@media only screen and (max-width: 854px) {
   h2 {
     margin-top: 5px;
     font-size: 55px;

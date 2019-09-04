@@ -27,7 +27,6 @@
   color: black;
   position: relative;
   z-index: 1;
-  overflow: hidden;
 }
 .QA-box-question-title > h3 {
   text-align: center;
