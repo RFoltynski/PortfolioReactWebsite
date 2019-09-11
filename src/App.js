@@ -58,8 +58,14 @@ class App extends Component {
             </div>
           </div>
           <div>
-            <button className="app-cv-button">CV</button>
-            <button className="app-git-button">Git</button>
+            <button className="app-cv-button">
+              <a href={"http://r-foltynski.pl/RFCV.pdf"}>CV</a>
+            </button>
+            <button className="app-git-button">
+              <a href={"https://github.com/RFoltynski"} target="_blank">
+                Git
+              </a>
+            </button>
             <ScrollspyNav
               scrollTargetIds={[
                 "section_1",

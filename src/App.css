@@ -46,6 +46,9 @@ p {
 
   font-family: "Josefin Slab", serif;
 }
+a {
+  color: white;
+}
 
 .app-navbar {
   height: 100%;
