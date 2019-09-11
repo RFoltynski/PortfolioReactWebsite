@@ -24,7 +24,17 @@ export default class Projects extends Component {
                 <div className="project-box-title"> Parafia Kiełczygłów </div>
                 <div className="project-box-links">
                   {" "}
-                  <a>Git</a> <a>Live</a>{" "}
+                  <a
+                    href={
+                      "https://github.com/RFoltynski/Parafia-Kielczyglow-React-Rails"
+                    }
+                    target="_blank"
+                  >
+                    Git
+                  </a>{" "}
+                  <a href={"http://165.22.19.149/"} target="_blank">
+                    Live
+                  </a>{" "}
                   <a
                     className="project-box-links-a"
                     onClick={() =>
@@ -33,7 +43,7 @@ export default class Projects extends Component {
                       })
                     }
                   >
-                    Obróć
+                    Opis
                   </a>
                 </div>
               </div>
@@ -41,8 +51,12 @@ export default class Projects extends Component {
               <div className="project-box-card" key="back">
                 <div className="project-box-title">
                   {" "}
-                  Pellentesque ac velit eget turpis dictum pulvinar vitae vel
-                  urna. Vestibulum at sagittis ante, vel facilisis tortor.{" "}
+                  Strona została wykonana przy użyciu Ruby on Rails oraz
+                  React.js
+                  <br />
+                  <br />
+                  Strona ma możliwość dodawania postów oraz intencji mszy
+                  świętych z poziomu panelu admina.
                 </div>
                 <a
                   className="project-box-links-a"
@@ -62,7 +76,12 @@ export default class Projects extends Component {
                 <div className="project-box-title"> Binar Games </div>
                 <div className="project-box-links">
                   {" "}
-                  <a>Git</a> <a>Live</a>{" "}
+                  <a
+                    href={"https://github.com/karczewskiPiotr/binar-games"}
+                    target="_blank"
+                  >
+                    Git
+                  </a>{" "}
                   <a
                     className="project-box-links-a"
                     onClick={() =>
@@ -79,8 +98,15 @@ export default class Projects extends Component {
               <div className="project-box-card" key="back">
                 <div className="project-box-title">
                   {" "}
-                  Pellentesque ac velit eget turpis dictum pulvinar vitae vel
-                  urna. Vestibulum at sagittis ante, vel facilisis tortor.{" "}
+                  Aplikacja wykonana w ramach letnich praktyk w firmie
+                  BinarApps.
+                  <br />
+                  <br />
+                  Aplikacja zrzeszająca fanów gier planszowych.
+                  <br />
+                  <br />
+                  Użytkownik ma możliowść rejestracji, dodawania gier oraz
+                  tworzenia eventów
                 </div>
                 <a
                   className="project-box-links-a"
@@ -100,7 +126,18 @@ export default class Projects extends Component {
                 <div className="project-box-title"> To do list </div>
                 <div className="project-box-links">
                   {" "}
-                  <a>Git</a> <a>Live</a>{" "}
+                  <a
+                    href={"https://github.com/RFoltynski/ToDo"}
+                    target={"_blank"}
+                  >
+                    Git
+                  </a>{" "}
+                  <a
+                    href={"https://todolist-a7a5f.firebaseapp.com"}
+                    target={"_blank"}
+                  >
+                    Live
+                  </a>{" "}
                   <a
                     className="project-box-links-a"
                     onClick={() =>
@@ -117,8 +154,10 @@ export default class Projects extends Component {
               <div className="project-box-card" key="back">
                 <div className="project-box-title">
                   {" "}
-                  Pellentesque ac velit eget turpis dictum pulvinar vitae vel
-                  urna. Vestibulum at sagittis ante, vel facilisis tortor.{" "}
+                  Aplikacja To Do.
+                  <br />
+                  <br />
+                  Aplikacja wykonana przy pomocy React.js oraz Firebase.
                 </div>
                 <a
                   className="project-box-links-a"
