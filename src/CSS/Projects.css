@@ -45,6 +45,17 @@
   -moz-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 1);
   box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 1);
 }
+
+.project-img-1 {
+  background-image: url("../../public/Images/Projects/parafia.png");
+}
+.project-img-2 {
+  background-image: url("../../public/Images/Projects/binar.png");
+}
+.project-img-3 {
+  background-image: url("../../public/Images/Projects/todo.png");
+}
+
 .project-box-links {
   display: flex;
   justify-content: space-between;

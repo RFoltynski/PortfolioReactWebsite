@@ -20,7 +20,7 @@ export default class Projects extends Component {
           <div className="project-box-cards">
             <ReactCardFlip isFlipped={this.state.isFlipped}>
               <div className="project-box-card" key="front">
-                <div className="project-box-card-img" />
+                <div className="project-box-card-img project-img-1" />
                 <div className="project-box-title"> Parafia Kiełczygłów </div>
                 <div className="project-box-links">
                   {" "}
@@ -72,7 +72,7 @@ export default class Projects extends Component {
             </ReactCardFlip>
             <ReactCardFlip isFlipped={this.state.isFlipped1}>
               <div className="project-box-card" key="front">
-                <div className="project-box-card-img" />
+                <div className="project-box-card-img project-img-2" />
                 <div className="project-box-title"> Binar Games </div>
                 <div className="project-box-links">
                   {" "}
@@ -122,7 +122,7 @@ export default class Projects extends Component {
             </ReactCardFlip>
             <ReactCardFlip isFlipped={this.state.isFlipped2}>
               <div className="project-box-card" key="front">
-                <div className="project-box-card-img" />
+                <div className="project-box-card-img project-img-3" />
                 <div className="project-box-title"> To do list </div>
                 <div className="project-box-links">
                   {" "}
@@ -146,7 +146,7 @@ export default class Projects extends Component {
                       })
                     }
                   >
-                    Obróć
+                    Opis
                   </a>
                 </div>
               </div>
@@ -167,7 +167,7 @@ export default class Projects extends Component {
                     })
                   }
                 >
-                  Obróć
+                  Opis
                 </a>
               </div>
             </ReactCardFlip>

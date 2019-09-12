@@ -19,7 +19,7 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  <h3>Pellentesque ac velit eget turpis?</h3>
+                  <h3>Dlaczego zdecydowałem się na zminę kierunku studiów?</h3>
                 </div>
                 <button
                   className={
@@ -56,11 +56,9 @@ class QA extends Component {
                   (props => (
                     <animated.div style={props}>
                       <div className="QA-box-question-answer">
-                        Pellentesque ac velit eget turpis dictum pulvinar vitae
-                        vel urna. Vestibulum at sagittis ante, vel facilisis
-                        tortor.Pellentesque ac velit eget turpis dictum pulvinar
-                        vitae vel urna. Vestibulum at sagittis ante, vel
-                        facilisis tortor.
+                        Poniewać lubię tworzyć i uczyć się nowych rzeczy. A
+                        logistyka, zarówno jako kierunek studiów jak i praca (na
+                        praktykach) nie dawała takich możliowści.
                       </div>
                     </animated.div>
                   ))
@@ -70,7 +68,7 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  <h3>Pellentesque ac velit eget turpis?</h3>
+                  <h3>Od kiedy programuję?</h3>
                 </div>
                 <button
                   className={
@@ -107,11 +105,11 @@ class QA extends Component {
                   (props => (
                     <animated.div style={props}>
                       <div className="QA-box-question-answer">
-                        Pellentesque ac velit eget turpis dictum pulvinar vitae
-                        vel urna. Vestibulum at sagittis ante, vel facilisis
-                        tortor.Pellentesque ac velit eget turpis dictum pulvinar
-                        vitae vel urna. Vestibulum at sagittis ante, vel
-                        facilisis tortor.
+                        Programować zacząlem na studiach pod koniec 2015 roku, i
+                        była to głównie JAVA. Natomiast moja przygoda z web
+                        developmentem rozpoczeła się rok poźniej (mniej więcej
+                        początek 2017) od przygotowania strony na zajęcia z
+                        grafiki komputerowej.
                       </div>
                     </animated.div>
                   ))
@@ -121,7 +119,7 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  <h3>Pellentesque ac velit eget turpis?</h3>
+                  <h3>Czym była spowodowana przerwa po studiach?</h3>
                 </div>
                 <button
                   className={
@@ -158,11 +156,9 @@ class QA extends Component {
                   (props => (
                     <animated.div style={props}>
                       <div className="QA-box-question-answer">
-                        Pellentesque ac velit eget turpis dictum pulvinar vitae
-                        vel urna. Vestibulum at sagittis ante, vel facilisis
-                        tortor.Pellentesque ac velit eget turpis dictum pulvinar
-                        vitae vel urna. Vestibulum at sagittis ante, vel
-                        facilisis tortor.
+                        Pod koniec studiów magisterskich sytuacja rodzinna
+                        skomplikowała się i konieczne było bym wrócił do domu
+                        rodzinnego na wieś.
                       </div>
                     </animated.div>
                   ))
@@ -172,7 +168,7 @@ class QA extends Component {
             <div className="QA-box-question">
               <div className="row">
                 <div className="QA-box-question-title">
-                  <h3>Pellentesque ac velit eget turpis?</h3>
+                  <h3>Czym chciałbym się zajmować?</h3>
                 </div>
                 <button
                   className={
@@ -209,11 +205,10 @@ class QA extends Component {
                   (props => (
                     <animated.div style={props}>
                       <div className="QA-box-question-answer">
-                        Pellentesque ac velit eget turpis dictum pulvinar vitae
-                        vel urna. Vestibulum at sagittis ante, vel facilisis
-                        tortor.Pellentesque ac velit eget turpis dictum pulvinar
-                        vitae vel urna. Vestibulum at sagittis ante, vel
-                        facilisis tortor.
+                        Zajmowałem się do tej pory głównie front endem (html,
+                        css, JS, REACT.js). Lecz od niedawna korzystałem również
+                        z Ruby on Rails na back endzie, ponieważ chciałbym
+                        tworzyć aplikacje webowe kompleksowo.
                       </div>
                     </animated.div>
                   ))
