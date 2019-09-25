@@ -42,7 +42,7 @@ class App extends Component {
               </li>
               <li className="app-navbar-li">
                 <a href="#section_2D" onClick={() => this.dropDownMenu(event)}>
-                  <span>Umiejętności</span>
+                  <span>Technologie</span>
                 </a>
               </li>
               <li className="app-navbar-li">
@@ -86,7 +86,7 @@ class App extends Component {
                 </li>
                 <li className="app-navbar-li">
                   <a href="#section_2">
-                    <span>Umiejętności</span>
+                    <span>Technologie</span>
                   </a>
                 </li>
                 <li className="app-navbar-li">

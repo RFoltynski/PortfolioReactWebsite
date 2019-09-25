@@ -16,10 +16,6 @@ class ReactSkill extends Component {
           {props => (
             <div style={props} className="skill-box-content">
               {" "}
-              <img
-                src={"./Images/Skills/react-logo.svg"}
-                className="skill-box-content-logo"
-              />{" "}
               <div className="skill-box-content-text">
                 <div className="skill-box-content-text-p">dsa fadsf ds </div>
                 <div className="skill-box-content-text-p">

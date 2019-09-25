@@ -32,7 +32,7 @@ export default class Projects extends Component {
                   >
                     Git
                   </a>{" "}
-                  <a href={"http://165.22.19.149/"} target="_blank">
+                  <a href={"http://parafia-kielczyglow.pl/"} target="_blank">
                     Live
                   </a>{" "}
                   <a
