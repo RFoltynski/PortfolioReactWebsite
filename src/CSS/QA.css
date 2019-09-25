@@ -17,6 +17,7 @@
 .QA-box-question {
   overflow: hidden;
 }
+
 .QA-box-question-title {
   display: flex;
   align-items: center;
@@ -34,7 +35,7 @@
 }
 .QA-box-question-answer {
   background-color: green;
-  height: 100px;
+  height: 180px;
   background-color: white;
   opacity: 0.8;
   color: black;
@@ -43,6 +44,9 @@
   text-align: center;
   padding: 0 15px;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .QA-box-question-button-on {
   background-color: green;

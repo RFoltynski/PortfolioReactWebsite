@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Spring, Transition, animated } from "react-spring/renderprops.cjs";
+import { Transition, animated } from "react-spring/renderprops.cjs";
 import "../CSS/QA.css";
 
 class QA extends Component {
@@ -47,19 +47,20 @@ class QA extends Component {
               <Transition
                 native
                 items={this.state.showQuestion1}
-                from={{ opacity: 0, marginTop: -100 }}
+                from={{ opacity: 0, marginTop: -180 }}
                 enter={{ opacity: 1, marginTop: 0 }}
-                leave={{ opacity: 0, marginTop: -100 }}
+                leave={{ opacity: 0, marginTop: -180 }}
               >
                 {show =>
                   show &&
                   (props => (
-                    <animated.div style={props}>
-                      <div className="QA-box-question-answer">
-                        Poniewać lubię tworzyć i uczyć się nowych rzeczy. A
-                        logistyka, zarówno jako kierunek studiów jak i praca (na
-                        praktykach) nie dawała takich możliowści.
-                      </div>
+                    <animated.div
+                      style={props}
+                      className="QA-box-question-answer "
+                    >
+                      Ponieważ lubię tworzyć i uczyć się nowych rzeczy. A
+                      logistyka, zarówno jako kierunek studiów jak i praca (na
+                      praktykach) nie dawała takich możliowści.
                     </animated.div>
                   ))
                 }
@@ -96,21 +97,21 @@ class QA extends Component {
               <Transition
                 native
                 items={this.state.showQuestion2}
-                from={{ opacity: 0, marginTop: -100 }}
+                from={{ opacity: 0, marginTop: -180 }}
                 enter={{ opacity: 1, marginTop: 0 }}
-                leave={{ opacity: 0, marginTop: -100 }}
+                leave={{ opacity: 0, marginTop: -180 }}
               >
                 {show =>
                   show &&
                   (props => (
-                    <animated.div style={props}>
-                      <div className="QA-box-question-answer">
-                        Programować zacząlem na studiach pod koniec 2015 roku, i
-                        była to głównie JAVA. Natomiast moja przygoda z web
-                        developmentem rozpoczeła się rok poźniej (mniej więcej
-                        początek 2017) od przygotowania strony na zajęcia z
-                        grafiki komputerowej.
-                      </div>
+                    <animated.div
+                      style={props}
+                      className="QA-box-question-answer answer-1"
+                    >
+                      Programować zacząlem na studiach pod koniec 2015 roku, i
+                      była to głównie JAVA. Moja przygoda z web developmentem
+                      rozpoczeła się rok poźniej od przygotowania strony na
+                      zajęcia.
                     </animated.div>
                   ))
                 }
@@ -147,19 +148,20 @@ class QA extends Component {
               <Transition
                 native
                 items={this.state.showQuestion3}
-                from={{ opacity: 0, marginTop: -100 }}
+                from={{ opacity: 0, marginTop: -180 }}
                 enter={{ opacity: 1, marginTop: 0 }}
-                leave={{ opacity: 0, marginTop: -100 }}
+                leave={{ opacity: 0, marginTop: -180 }}
               >
                 {show =>
                   show &&
                   (props => (
-                    <animated.div style={props}>
-                      <div className="QA-box-question-answer">
-                        Pod koniec studiów magisterskich sytuacja rodzinna
-                        skomplikowała się i konieczne było bym wrócił do domu
-                        rodzinnego na wieś.
-                      </div>
+                    <animated.div
+                      style={props}
+                      className="QA-box-question-answer"
+                    >
+                      Pod koniec studiów magisterskich sytuacja rodzinna
+                      skomplikowała się i konieczne było bym wrócił do domu
+                      rodzinnego na wieś.
                     </animated.div>
                   ))
                 }
@@ -196,20 +198,21 @@ class QA extends Component {
               <Transition
                 native
                 items={this.state.showQuestion4}
-                from={{ opacity: 0, marginTop: -100 }}
+                from={{ opacity: 0, marginTop: -180 }}
                 enter={{ opacity: 1, marginTop: 0 }}
-                leave={{ opacity: 0, marginTop: -100 }}
+                leave={{ opacity: 0, marginTop: -180 }}
               >
                 {show =>
                   show &&
                   (props => (
-                    <animated.div style={props}>
-                      <div className="QA-box-question-answer">
-                        Zajmowałem się do tej pory głównie front endem (html,
-                        css, JS, REACT.js). Lecz od niedawna korzystałem również
-                        z Ruby on Rails na back endzie, ponieważ chciałbym
-                        tworzyć aplikacje webowe kompleksowo.
-                      </div>
+                    <animated.div
+                      style={props}
+                      className="QA-box-question-answer"
+                    >
+                      Zajmowałem się do tej pory głównie front endem (html, css,
+                      JS, REACT.js). Lecz od niedawna korzystałem również z Ruby
+                      on Rails na back endzie, ponieważ chciałbym tworzyć
+                      aplikacje webowe kompleksowo.
                     </animated.div>
                   ))
                 }
